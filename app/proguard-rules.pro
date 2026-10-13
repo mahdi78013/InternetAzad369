@@ -1,0 +1,6 @@
+-keep class io.nekohasekai.libbox.** { *; }
+-keep interface io.nekohasekai.libbox.** { *; }
+-keep class go.** { *; }
+-keep interface go.** { *; }
+-dontwarn io.nekohasekai.libbox.**
+-dontwarn go.**
